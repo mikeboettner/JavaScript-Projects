@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>
+			High-Low Guessing Game!
+		</title>
+		<script src="guessingGame.js" defer="true"> </script>
+		<link rel="stylesheet" type="text/css" href="guessingGameStyles.css" />
+	</head>
+	<body>
+		<div id="game-container">
+			<h2>High-Low Guessing Game!</h2>
+			I'm thinking of a number from 1 to 100...
+			<p>
+				<input type="text" id="userGuess" placeholder="Type guess here" maxlength="3" />
+				<button type ="button" onclick="myRandomFunction();">Guess!</button>
+				<button type ="button" onclick="resetGame();">Reset game</button>
+			</p>
+			<div id="output">
+				&nbsp;
+			</div>
+			<p>
+			<div id="smiley-container">
+				<div id="smiley"></div>
+				<div id="cursor">|</div>
+			</div>
+			</p>
+			<footer>
+				Coded by Mike Boettner for COSC 231, Fall 2015
+			</footer>
+		</div>
+
+	</body>
+	
+</html>
